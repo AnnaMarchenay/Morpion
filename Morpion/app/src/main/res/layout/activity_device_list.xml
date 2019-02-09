@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.morpion.DeviceListActivity"
+    android:background="@android:color/black">
+
+    <TextView android:id="@+id/title_paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_paired_devices"
+        android:visibility="gone"
+        android:background="@android:color/black"
+        />
+    <ListView android:id="@+id/paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true"
+        android:layout_below="@id/title_paired_devices"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/info"
+        android:layout_below="@id/paired_devices"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

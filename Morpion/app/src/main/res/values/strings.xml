@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="one_player">Un joueur</string>
+    <string name="two_players">Deux joueurs</string>
+    <string name="quit_message">Êtes vous sur de vouloir quitter le jeu ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="options">Options</string>
+    <string name="start">Commencer</string>
+    <string name="difficulty">Difficulté</string>
+    <string name="easy">Facile</string>
+    <string name="medium">Moyenne</string>
+    <string name="hard">Difficile</string>
+    <string name="difficulty_message">Veuillez indiquer une difficulté</string>
+    <string name="circle">o</string>
+    <string name="cross">x</string>
+    <string name="computer">Ordinateur</string>
+    <string name="player">Joueur</string>
+    <string name="user_marker_message">Veuillez entrer un pseudo et choisir un symbole</string>
+    <string name="player_one">Joueur 1</string>
+    <string name="user_message">Veuillez entrer un pseudo</string>
+    <string name="cancel">Annuler</string>
+    <string name="player_name">Pseudo</string>
+    <string name="select_marker">Sélectionnez votre symbole</string>
+    <string name="select_difficulty">Sélectionnez la difficulté</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="player_one_username">Joueur 1</string>
+    <string name="player_two_username">Joueur 2</string>
+    <string name="your_name">Votre pseudo</string>
+    <string name="your_marker">Votre symbole</string>
+    <string name="opponent_s_name">Pseudo de\nl\'adversaire</string>
+    <string name="opponent_s_marker">Symbole de\nl\'adversaire</string>
+    <string name="connect">Connecter un appareil</string>
+    <string name="discoverable">Se rendre visible</string>
+    <string name="title_paired_devices">Appareils appairés</string>
+    <string name="title_other_devices">Appareils disponibles</string>
+    <string name="button_scan">Rechercher des appareils</string>
+    <string name="none_paired">Pas d\'appareils appairés</string>
+    <string name="scanning">En train de chercher…</string>
+    <string name="select_device">Sélectionnez un appareil</string>
+    <string name="none_found">Pas d\'appareils trouvés</string>
+    <string name="info">Pour pouvoir jouer en bluetooth veuillez sélectionner un appareil déjà appairé à celui-ci et qu\'il soit lui aussi dans la salle bluetooth de l\'application</string>
+
+</resources>
